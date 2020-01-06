@@ -1,0 +1,73 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg{
+    background-image: url("./adventure-calm-clouds-dawn-414171.jpg");
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+
+.para{
+    height: auto;
+    background-color : darkgrey;
+    padding: 30px;
+}
+
+.bg2{
+    background-image: url("./green-mountains-and-flowing-river-206660.jpg");
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+
+.para2{
+    height: auto;
+    background-color:#e6e6e6;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+div.header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+div.footer{
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    background-color : darkslategray;
+    width: 100%;
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    left:40%;
+    right: 40%;
+    width: auto;
+    min-width: 140px;
+    text-align: center;
+    letter-spacing: 10px;
+    background: black;
+    font-family: 'Gill Sans'; 
+    font-size: 20px; 
+    height: auto; 
+    padding: 10px; 
+    border: 10px solid black;
+    color: white;
+}
